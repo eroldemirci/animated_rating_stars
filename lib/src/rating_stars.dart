@@ -243,7 +243,7 @@ class _AnimatedStarState extends State<AnimatedStar>
             widget.filledColor,
             _animation.value,
           ),
-          size: widget.starSize + 8.0 * _animation.value,
+          size: widget.starSize,
         );
       },
     );
